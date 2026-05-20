@@ -3,6 +3,7 @@ import nltk
 
 nltk.download('punkt_tab')
 nltk.download('stopwords')
+nltk.download('wordnet')
 
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
