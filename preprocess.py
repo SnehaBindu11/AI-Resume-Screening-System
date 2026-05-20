@@ -1,12 +1,12 @@
 import re
 import nltk
+
+nltk.download('punkt_tab')
 nltk.download('stopwords')
-nltk.download('punkt')
 
 from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
-
+from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer()
 
